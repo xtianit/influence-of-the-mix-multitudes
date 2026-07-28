@@ -600,19 +600,24 @@ const [contentData, setContentData] = useState<ContentData>({
                     </div>
                 </div>
 
-                <h1 className="text-3xl md:text-4xl font-bold text-white mb-2 text-wrap">
+                
+
+
+
+
+                <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-white mb-2 text-wrap break-words text-center px-4">
                     Life Gate Ministries Worldwide
                 </h1>
-                <p className="text-xl text-white/90 mb-8">
+                <p className="text-lg sm:text-xl text-white/90 mb-8 text-center px-4">
                     Sunday School Lessons
                 </p>
 
                 {/* Single-color glowing neon text */}
-                <div className="flex justify-center mb-6 text-3xl md:text-4xl font-extrabold">
+                <div className="flex flex-wrap justify-center mb-6 text-2xl sm:text-3xl md:text-4xl font-extrabold px-4 max-w-full">
                     {animatedText.map((char, idx) => (
                         <span
                             key={idx}
-                            className="inline-block text-wrap text-blue-400 drop-shadow-[0_0_10px_#00ffff] animate-[wave_1.5s_ease-in-out_infinite]"
+                            className="inline-block text-blue-400 drop-shadow-[0_0_10px_#00ffff] animate-[wave_1.5s_ease-in-out_infinite]"
                             style={{
                                 animationDelay: `${idx * 0.1}s`,
                             }}
@@ -621,6 +626,12 @@ const [contentData, setContentData] = useState<ContentData>({
                         </span>
                     ))}
                 </div>
+
+
+
+
+
+
 
                 <div className="text-white/80 mb-6 text-lg animate-pulse">
                     Loading Sunday School Lesson...
