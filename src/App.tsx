@@ -600,7 +600,7 @@ const [contentData, setContentData] = useState<ContentData>({
                     </div>
                 </div>
 
-                <h1 className="text-3xl md:text-4xl font-bold text-white mb-2">
+                <h1 className="text-3xl md:text-4xl font-bold text-white mb-2 text-wrap">
                     Life Gate Ministries Worldwide
                 </h1>
                 <p className="text-xl text-white/90 mb-8">
@@ -612,7 +612,7 @@ const [contentData, setContentData] = useState<ContentData>({
                     {animatedText.map((char, idx) => (
                         <span
                             key={idx}
-                            className="inline-block text-blue-400 drop-shadow-[0_0_10px_#00ffff] animate-[wave_1.5s_ease-in-out_infinite]"
+                            className="inline-block text-wrap text-blue-400 drop-shadow-[0_0_10px_#00ffff] animate-[wave_1.5s_ease-in-out_infinite]"
                             style={{
                                 animationDelay: `${idx * 0.1}s`,
                             }}
