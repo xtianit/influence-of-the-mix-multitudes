@@ -49,94 +49,179 @@ type BibleVersions = {
 type ScriptureDB = Record<string, BibleVersions>;
 
 const initialScriptureDB: ScriptureDB = {
-  "Matthew 6:33": {
-    "KJV": "But seek ye first the kingdom of God, and his righteousness; and all these things shall be added unto you.",
-    "NKJV": "But seek first the kingdom of God and His righteousness, and all these things shall be added to you.",
-    "NIV": "But seek first his kingdom and his righteousness, and all these things will be given to you as well.",
-    "ESV": "But seek first the kingdom of God and his righteousness, and all these things will be added to you.",
-    "AMP": "But first and most importantly seek (aim at, strive after) His kingdom and His righteousness [His way of doing and being right—the attitude and character of God], and all these things will be given to you also.",
-    "NLT": "Seek the Kingdom of God above all else, and live righteously, and he will give you everything you need."
+  "Numbers 11:4-6": {
+    "KJV": "4 And the mixt multitude that was among them fell a lusting: and the children of Israel also wept again, and said, Who shall give us flesh to eat? 5 We remember the fish, which we did eat in Egypt freely; the cucumbers, and the melons, and the leeks, and the onions, and the garlick: 6 But now our soul is dried away: there is nothing at all, beside this manna, before our eyes.",
+    "NKJV": "4 Now the mixed multitude who were among them yielded to intense craving; so the children of Israel also wept again and said: 'Who will give us meat to eat? 5 We remember the fish which we ate freely in Egypt, the cucumbers, the melons, the leeks, the onions, and the garlic; 6 but now our whole being is dried up; there is nothing at all except this manna before our eyes!'",
+    "NIV": "4 The rabble with them began to crave other food, and again the Israelites started wailing and said, 'If only we had meat to eat! 5 We remember the fish we ate in Egypt at no cost—also the cucumbers, melons, leeks, onions and garlic. 6 But now we have lost our appetite; we never see anything but this manna!'",
+    "ESV": "4 Now the rabble that was among them had a strong craving. And the people of Israel also wept again and said, 'Oh that we had meat to eat! 5 We remember the fish we ate in Egypt that cost nothing, the cucumbers, the melons, the leeks, the onions, and the garlic. 6 But now our strength is dried up, and there is nothing at all but this manna to look at.'",
+    "AMP": "4 The mixed multitude [of non-Israelites] who were among them had greedy desires; and the Israelites wept again and said, 'Who will give us meat to eat? 5 We remember the fish we ate freely and without cost in Egypt, the cucumbers, melons, leeks, onions, and garlic. 6 But now our appetite is gone; there is nothing at all [in the way of food] to be seen but this manna.'",
+    "NLT": "4 Then the foreign rabble who were traveling with the Israelites began to crave the good things of Egypt. And the people of Israel also began to complain. 'Oh, for some meat!' they exclaimed. 5 'We remember the fish we used to eat for free in Egypt. And we had all the cucumbers, melons, leeks, onions, and garlic we wanted. 6 But now our appetites are gone. All we ever see is this manna!'"
   },
-  "Matthew 12:38-42": {
-    "KJV": "38 Then certain of the scribes and of the Pharisees answered, saying, Master, we would see a sign from thee. 39 But he answered and said unto them, An evil and adulterous generation seeketh after a sign; and there shall no sign be given to it, but the sign of the prophet Jonas: 40 For as Jonas was three days and three nights in the whale's belly; so shall the Son of man be three days and three nights in the heart of the earth. 41 The men of Nineveh shall rise in judgment with this generation, and shall condemn it: because they repented at the preaching of Jonas; and, behold, a greater than Jonas is here. 42 The queen of the south shall rise up in the judgment with this generation, and shall condemn it: for she came from the uttermost parts of the earth to hear the wisdom of Solomon; and, behold, a greater than Solomon is here.",
-    "NKJV": "38 Then some of the scribes and Pharisees answered, saying, “Teacher, we want to see a sign from You.” 39 But He answered and said to them, “An evil and adulterous generation seeks after a sign, and no sign will be given to it except the sign of the prophet Jonah. 40 For as Jonah was three days and three nights in the belly of the great fish, so will the Son of Man be three days and three nights in the heart of the earth. 41 The men of Nineveh will rise up in the judgment with this generation and condemn it, because they repented at the preaching of Jonah; and indeed a greater than Jonah is here. 42 The queen of the South will rise up in the judgment with this generation and condemn it, for she came from the ends of the earth to hear the wisdom of Solomon; and indeed a greater than Solomon is here.",
-    "NIV": "38 Then some of the Pharisees and teachers of the law said to him, “Teacher, we want to see a sign from you.” 39 He answered, “A wicked and adulterous generation asks for a sign! But none will be given it except the sign of the prophet Jonah. 40 For as Jonah was three days and three nights in the belly of a huge fish, so the Son of Man will be three days and three nights in the heart of the earth. 41 The men of Nineveh will stand up at the judgment with this generation and condemn it; for they repented at the preaching of Jonah, and now something greater than Jonah is here. 42 The Queen of the South will rise at the judgment with this generation and condemn it; for she came from the ends of the earth to listen to Solomon’s wisdom, and now something greater than Solomon is here.",
-    "ESV": "38 Then some of the scribes and Pharisees answered him, saying, “Teacher, we wish to see a sign from you.” 39 But he answered them, “An evil and adulterous generation seeks for a sign, but no sign will be given to it except the sign of the prophet Jonah. 40 For as Jonah was three days and three nights in the belly of the great fish, so will the Son of Man be three days and three nights in the heart of the earth. 41 The men of Nineveh will rise up at the judgment with this generation and condemn it, for they repented at the preaching of Jonah, and behold, something greater than Jonah is here. 42 The queen of the South will rise up at the judgment with this generation and condemn it, for she came from the ends of the earth to hear the wisdom of Solomon, and behold, something greater than Solomon is here.",
-    "AMP": "38 Then some of the scribes and Pharisees said to Him, “Teacher, we want to see a sign (attesting miracle) from You [proving that You are what You claim to be].” 39 But He replied, “An evil and adulterous generation [morally unfaithful to God] craves a sign; but no sign will be given to it except the sign of the prophet Jonah; 40 for just as Jonah was three days and three nights in the belly of the sea monster, so will the Son of Man be three days and three nights in the heart of the earth. 41 The men of Nineveh will stand up [as witnesses] at the judgment with this generation, and will condemn it because they repented at the preaching of Jonah; and look, Something greater than Jonah is here. 42 The Queen of the South (Sheba) will rise up [as a witness] at the judgment with this generation, and will condemn it because she came from the ends of the earth to hear the wisdom of Solomon; and look, Something greater than Solomon is here.",
-    "NLT": "38 One day some teachers of religious law and Pharisees came to Jesus and said, “Teacher, we want you to show us a miraculous sign to prove your authority.” 39 But Jesus replied, “Only an evil, adulterous generation would demand a miraculous sign; but the only sign I will give them is the sign of the prophet Jonah. 40 For as Jonah was in the belly of the great fish for three days and three nights, so will the Son of Man be in the heart of the earth for three days and three nights. 41 The people of Nineveh will stand up against this generation on judgment day and condemn it, for they repented of their sins at the preaching of Jonah. And now someone greater than Jonah is here—but you refuse to repent. 42 The queen of Sheba will also stand up against this generation on judgment day and condemn it, for she came from such a distant land to hear the wisdom of Solomon. And now someone greater than Solomon is here—but you refuse to listen."
+  "1 Corinthians 10:12": {
+    "KJV": "12 Wherefore let him that thinketh he standeth take heed lest he fall.",
+    "NKJV": "12 Therefore let him who thinks he stands take heed lest he fall.",
+    "NIV": "12 So, if you think you are standing firm, be careful that you don’t fall!",
+    "ESV": "12 Therefore let anyone who thinks that he stands take heed lest he fall.",
+    "AMP": "12 Therefore let the one who thinks he stands [firm, immune to temptation, being overconfident and self-righteous], take care that he does not fall [into sin and condemnation].",
+    "NLT": "12 If you think you are standing strong, be careful not to fall."
   },
-  "1 Corinthians 6:20": {
-    "KJV": "For ye are bought with a price: therefore glorify God in your body, and in your spirit, which are God's.",
-    "NKJV": "For you were bought at a price; therefore glorify God in your body and in your spirit, which are God’s.",
-    "NIV": "you were bought at a price. Therefore honor God with your bodies.",
-    "ESV": "for you were bought with a price. So glorify God in your body.",
-    "AMP": "You were bought with a price [purchased with a preciousness and paid for, made His own]. So then, honor God and bring glory to Him in your body.",
-    "NLT": "for God bought you with a high price. So you must honor God with your body."
+  "John 3:19": {
+    "KJV": "19 And this is the condemnation, that light is come into the world, and men loved darkness rather than light, because their deeds were evil.",
+    "NKJV": "19 And this is the condemnation, that the light has come into the world, and men loved darkness rather than light, because their deeds were evil.",
+    "NIV": "19 This is the verdict: Light has come into the world, but people loved darkness instead of light because their deeds were evil.",
+    "ESV": "19 And this is the judgment: the light has come into the world, and people loved the darkness rather than the light because their works were evil.",
+    "AMP": "19 This is the judgment [that is, the cause for indictment, the test by which people are judged, the basis for the sentence]: the Light has come into the world, and people loved the darkness rather than the Light, for their deeds were evil.",
+    "NLT": "19 And the judgment is based on this fact: God’s light came into the world, but people loved the darkness more than the light, for their actions were evil."
   },
-  "Romans 6:18": {
-    "KJV": "Being then made free from sin, ye became the servants of righteousness.",
-    "NKJV": "And having been set free from sin, you became slaves of righteousness.",
-    "NIV": "You have been set free from sin and have become slaves to righteousness.",
-    "ESV": "and, having been set free from sin, have become slaves of righteousness.",
-    "AMP": "And having been set free from sin, you have become the slaves of righteousness [of conformity to God’s will and ethical oneness with Him].",
-    "NLT": "Now you are free from your slavery to sin, and you have become slaves to righteous living."
+  "Numbers 11:10-15": {
+    "KJV": "10 Then Moses heard the people weep throughout their families, every man in the door of his tent: and the anger of the LORD was kindled greatly; Moses also was displeased. 11 And Moses said unto the LORD, Wherefore hast thou afflicted thy servant? and wherefore have I not found favour in thy sight, that thou layest the burden of all this people upon me? 12 Have I conceived all this people? have I begotten them, that thou shouldest say unto me, Carry them in thy bosom, as a nursing father beareth the sucking child, unto the land which thou swarest unto their fathers? 13 Whence should I have flesh to give unto all this people? for they weep unto me, saying, Give us flesh, that we may eat. 14 I am not able to bear all this people alone, because it is too heavy for me. 15 And if thou deal thus with me, kill me, I pray thee, out of hand, if I have found favour in thy sight; and let me not see my wretchedness.",
+    "NKJV": "10 Then Moses heard the people weeping throughout their families, everyone at the door of his tent; and the anger of the LORD was greatly aroused; Moses also was displeased. 11 So Moses said to the LORD, 'Why have You afflicted Your servant? And why have I not found favor in Your sight, that You have laid the burden of all these people on me? 12 Did I conceive all these people? Did I beget them, that You should say to me, \"Carry them in your bosom, as a guardian carries a nursing child,\" to the land which You swore to their fathers? 13 Where am I to get meat to give to all these people? For they weep all over me, saying, \"Give us meat, that we may eat.\" 14 I am not able to bear all these people alone, because the burden is too heavy for me. 15 If You treat me like this, please kill me here and now—if I have found favor in Your sight—and do not let me see my wretchedness!'",
+    "NIV": "10 Moses heard the people of every family wailing at the entrance to their tents. The LORD became exceedingly angry, and Moses was troubled. 11 He asked the LORD, 'Why have you brought this trouble on your servant? What have I done to displease you that you put the burden of all these people on me? 12 Did I conceive all these people? Did I give them birth? Why do you tell me to carry them in my arms, as a nurse carries an infant, to the land you promised on oath to their ancestors? 13 Where can I get meat for all these people? They keep wailing to me, \"Give us meat to eat!\" 14 I cannot carry all these people by myself; the burden is too heavy for me. 15 If this is how you are going to treat me, please go ahead and kill me—if I have found favor in your eyes—and do not let me face my own ruin.'",
+    "ESV": "10 Moses heard the people weeping throughout their clans, everyone at the door of his tent. And the anger of the LORD blazed hotly, and Moses was displeased. 11 Moses said to the LORD, 'Why have you dealt ill with your servant? And why have I not found favor in your sight, that you lay the burden of all this people on me? 12 Did I conceive all this people? Did I give them birth, that you should say to me, \"Carry them in your bosom, as a nurse carries a nursing child,\" to the land that you swore to give their fathers? 13 Where am I to get meat to give to all this people? For they weep before me and say, \"Give us meat, that we may eat.\" 14 I am not able to carry all this people alone; the burden is too heavy for me. 15 If you will treat me like this, kill me at once, if I find favor in your sight, that I may not see my wretchedness.'",
+    "AMP": "10 Now Moses heard the people weeping throughout their families, each man at the doorway of his tent; and the anger of the LORD blazed hotly, and Moses was displeased. 11 So Moses said to the LORD, 'Why have You been so hard on Your servant? And why have I not found favor in Your sight, that You have laid the burden of all these people on me? 12 Was it I who conceived all these people? Was it I who gave birth to them, that You should say to me, \"Carry them in your arms as a nurse carries the nursing infant,\" to the land which You swore to their fathers? 13 Where am I to get meat to give to all these people? For they weep before me and say, \"Give us meat so that we may eat.\" 14 I am not able to carry all these people alone, because the burden is too heavy for me. 15 So if this is the way You are going to deal with me, please kill me immediately—if I have found favor in Your sight—and do not let me see my wretchedness.'",
+    "NLT": "10 Moses heard all the families standing in the doorways of their tents whining, and the LORD became extremely angry. Moses was also very aggravated. 11 And Moses said to the LORD, 'Why are you treating me, your servant, so harshly? Have mercy on me! What did I do to deserve the burden of all these people? 12 Did I give birth to them? Did I bring them into the world? Why did you tell me to carry them in my arms like a mother carries a nursing baby? How can I carry them to the land you swore to give their ancestors? 13 Where am I supposed to get meat for all these people? They keep whining to me, saying, \"Give us meat to eat!\" 14 I can’t carry all these people by myself! The load is far too heavy! 15 If this is how you intend to treat me, just go ahead and kill me. Do me a favor and spare me this misery!'"
   },
-  "Jonah 3:5-10": {
-    "KJV": "5 So the people of Nineveh believed God, and proclaimed a fast, and put on sackcloth, from the greatest of them even to the least of them. 6 For word came unto the king of Nineveh, and he arose from his throne, and he laid his robe from him, and covered him with sackcloth, and sat in ashes. 7 And he caused it to be proclaimed and published through Nineveh by the decree of the king and his nobles, saying, Let neither man nor beast, herd nor flock, taste any thing: let them not feed, nor drink water: 8 But let man and beast be covered with sackcloth, and cry mightly unto God: yea, let them turn every one from his evil way, and from the violence that is in their hands. 9 Who can tell if God will turn and repent, and turn away from his fierce anger, that we perish not? 10 And God saw their works, that they turned from their evil way; and God repented of the evil, that he had said that he would do unto them; and he did it not.",
-    "NKJV": "5 So the people of Nineveh believed God, proclaimed a fast, and put on sackcloth, from the greatest to the least of them. 6 Then word came to the king of Nineveh; and he arose from his throne and laid aside his robe, covered himself with sackcloth and sat in ashes. 7 And he caused it to be proclaimed and published throughout Nineveh by the decree of the king and his nobles, saying, Let neither man nor beast, herd nor flock, taste anything; do not let them feed, or drink water. 8 But let man and beast be covered with sackcloth, and cry mightily to God; yes, let everyone turn from his evil way and from the violence that is in his hands. 9 Who can tell if God will turn and relent, and turn away from His fierce anger, so that we may not perish? 10 Then God saw their works, that they turned from their evil way; and God relented from the disaster that He had said He would bring upon them, and He did not do it.",
-    "NIV": "5 The Ninevites believed God. A fast was proclaimed, and all of them, from the greatest to the least, put on sackcloth. 6 When the news reached the king of Nineveh, he rose from his throne, took off his royal robes, covered himself with sackcloth and sat down in the dust. 7 This is the proclamation he issued in Nineveh: “By decree of the king and his nobles: Do not let people or animals, herds or flocks, taste anything; do not let them eat or drink. 8 But let people and animals be covered with sackcloth. Let everyone call urgently on God. Let them give up their evil ways and their violence. 9 Who knows? God may yet relent and with compassion turn from his fierce anger so that we will not perish.” 10 When God saw what they did and how they turned from their evil ways, he relented and did not bring on them the destruction he had threatened.",
-    "ESV": "5 And the people of Nineveh believed God. They called for a fast and put on sackcloth, from the greatest of them to the least of them. 6 The word reached the king of Nineveh, and he arose from his throne, removed his robe, covered himself with sackcloth, and sat in ashes. 7 And he issued a proclamation and published through Nineveh, “By the decree of the king and his nobles: Let neither man nor beast, herd nor flock, taste anything. Let them not feed or drink water, 8 but let man and beast be covered with sackcloth, and let them call urgently to God. Let everyone turn from his evil way and from the violence that is in his hands. 9 Who knows? God may turn and relent and turn from his fierce anger, so that we may not perish.” 10 When God saw what they did, how they turned from their evil way, God relented of the disaster that he had said he would do to them, and he did not do it.",
-    "AMP": "5 The people of Nineveh believed in God and they proclaimed a fast and put on sackcloth, from the greatest to the least of them. 6 When word reached the king of Nineveh [of Jonah’s message], he rose from his throne, took off his royal robe, covered himself with sackcloth and sat in the ashes. 7 He issued a proclamation and it said, “In Nineveh, by decree of the king and his nobles: No man or beast, herd or flock, shall taste anything. They shall not eat or drink water. 8 Both man and beast must be covered with sackcloth; and let every one cry out mightily to God and let everyone turn from his evil way and from the violence that is in his hands. 9 Who knows? God may turn and relent [and revoke His sentence against us] and turn from His fierce anger so that we will not perish.” 10 When God saw their deeds, that they turned from their evil way, then God relented concerning the disaster which He had declared He would bring upon them. And He did not do it.",
-    "NLT": "5 The people of Nineveh believed God’s message, and from the greatest to the least, they declared a fast and put on burlap to show their sorrow. 6 When the king of Nineveh heard what Jonah was saying, he stepped down from his throne and took off his royal robes. He dressed himself in burlap and sat on a heap of ashes. 7 Then the king and his nobles sent this decree throughout the city: “No one, not even the animals from your herds and flocks, may eat or drink anything at all. 8 People and animals alike must wear burlap, and everyone must pray earnestly to God. They must turn from their evil ways and stop all their violence. 9 Who can tell? Perhaps even yet God will change his mind and hold back his fierce anger from destroying us.” 10 When God saw what they did and how they had turned from their evil ways, he had compassion and did not bring upon them the disaster he had threatened."
+  "Numbers 11:6": {
+    "KJV": "6 But now our soul is dried away: there is nothing at all, beside this manna, before our eyes.",
+    "NKJV": "6 but now our whole being is dried up; there is nothing at all except this manna before our eyes!",
+    "NIV": "6 But now we have lost our appetite; we never see anything but this manna!",
+    "ESV": "6 But now our strength is dried up, and there is nothing at all but this manna to look at.",
+    "AMP": "6 But now our appetite is gone; there is nothing at all [in the way of food] to be seen but this manna.",
+    "NLT": "6 But now our appetites are gone. All we ever see is this manna!"
   },
-  "John 3:16": {
-    "KJV": "For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life.",
-    "NKJV": "For God so loved the world that He gave His only begotten Son, that whoever believes in Him should not perish but have everlasting life.",
-    "NIV": "For God so loved the world that he gave his one and only Son, that whoever believes in him shall not perish but have eternal life.",
-    "ESV": "For God so loved the world, that he gave his only Son, that whoever believes in him should not perish but have eternal life.",
-    "AMP": "For God so [greatly] loved and dearly prized the world, that He [even] gave His [One and] only begotten Son, so that whoever believes and trusts in Him [as Savior] shall not perish, but have eternal life.",
-    "NLT": "For this is how God loved the world: He gave his one and only Son, so that everyone who believes in him will not perish but have eternal life."
+  "Numbers 11:33": {
+    "KJV": "33 And while the flesh was yet between their teeth, ere it was chewed, the wrath of the LORD was kindled against the people, and the LORD smote the people with a very great plague.",
+    "NKJV": "33 But while the meat was still between their teeth, before it was chewed, the wrath of the LORD was aroused against the people, and the LORD struck the people with a very great plague.",
+    "NIV": "33 But while the meat was still between their teeth and before it could be consumed, the anger of the LORD burned against the people, and he struck them with a severe plague.",
+    "ESV": "33 While the meat was yet between their teeth, before it was consumed, the anger of the LORD was kindled against the people, and the LORD struck down the people with a very great plague.",
+    "AMP": "33 While the meat was still between their teeth, before it was chewed, the anger of the LORD blazed against the people, and the LORD struck the people with a very severe plague.",
+    "NLT": "33 But while they were gorging themselves on the meat—while it was still in their mouths—the anger of the LORD blazed against the people, and he struck them with a severe plague."
   },
-  "Matthew 12:38": {
-    "KJV": "Then certain of the scribes and of the Pharisees answered, saying, Master, we would see a sign from thee.",
-    "NKJV": "Then some of the scribes and Pharisees answered, saying, “Teacher, we want to see a sign from You.”",
-    "NIV": "Then some of the Pharisees and teachers of the law said to him, “Teacher, we want to see a sign from you.”",
-    "ESV": "Then some of the scribes and Pharisees answered him, saying, “Teacher, we wish to see a sign from you.”",
-    "AMP": "Then some of the scribes and Pharisees said to Him, “Teacher, we want to see a sign (attesting miracle) from You [proving that You are what You claim to be].”",
-    "NLT": "One day some teachers of religious law and Pharisees came to Jesus and said, “Teacher, we want you to show us a miraculous sign to prove your authority.”"
+  "Matthew 7:21": {
+    "KJV": "21 Not every one that saith unto me, Lord, Lord, shall enter into the kingdom of heaven; but he that doeth the will of my Father which is in heaven.",
+    "NKJV": "21 Not everyone who says to Me, ‘Lord, Lord,’ shall enter the kingdom of heaven, but he who does the will of My Father in heaven.",
+    "NIV": "21 Not everyone who says to me, ‘Lord, Lord,’ will enter the kingdom of heaven, but only the one who does the will of my Father who is in heaven.",
+    "ESV": "21 Not everyone who says to me, ‘Lord, Lord,’ will enter the kingdom of heaven, but the one who does the will of my Father who is in heaven.",
+    "AMP": "21 Not everyone who says to Me, ‘Lord, Lord,’ will enter the kingdom of heaven, but only he who does the will of My Father who is in heaven.",
+    "NLT": "21 Not everyone who calls out to me, ‘Lord! Lord!’ will enter the Kingdom of Heaven. Only those who actually do the will of my Father in heaven will enter."
   },
-  "Matthew 12:38-39": {
-    "KJV": "38 Then certain of the scribes and of the Pharisees answered, saying, Master, we would see a sign from thee. 39 But he answered and said unto them, An evil and adulterous generation seeketh after a sign; and there shall no sign be given to it, but the sign of the prophet Jonas:",
-    "NKJV": "38 Then some of the scribes and Pharisees answered, saying, “Teacher, we want to see a sign from You.” 39 But He answered and said to them, “An evil and adulterous generation seeks after a sign, and no sign will be given to it except the sign of the prophet Jonah.",
-    "NIV": "38 Then some of the Pharisees and teachers of the law said to him, “Teacher, we want to see a sign from you.” 39 He answered, “A wicked and adulterous generation asks for a sign! But none will be given it except the sign of the prophet Jonah.",
-    "ESV": "38 Then some of the scribes and Pharisees answered him, saying, “Teacher, we wish to see a sign from you.” 39 But he answered them, “An evil and adulterous generation seeks for a sign, but no sign will be given to it except the sign of the prophet Jonah.",
-    "AMP": "38 Then some of the scribes and Pharisees said to Him, “Teacher, we want to see a sign (attesting miracle) from You [proving that You are what You claim to be].” 39 But He replied, “An evil and adulterous generation [morally unfaithful to God] craves a sign; but no sign will be given to it except the sign of the prophet Jonah;",
-    "NLT": "38 One day some teachers of religious law and Pharisees came to Jesus and said, “Teacher, we want you to show us a miraculous sign to prove your authority.” 39 But Jesus replied, “Only an evil, adulterous generation would demand a miraculous sign; but the only sign I will give them is the sign of the prophet Jonah."
+  "Job 1:6": {
+    "KJV": "6 Now there was a day when the sons of God came to present themselves before the LORD, and Satan came also among them.",
+    "NKJV": "6 Now there was a day when the sons of God came to present themselves before the LORD, and Satan also came among them.",
+    "NIV": "6 One day the angels came to present themselves before the LORD, and Satan also came with them.",
+    "ESV": "6 Now there was a day when the sons of God came to present themselves before the LORD, and Satan also came among them.",
+    "AMP": "6 Now there was a day when the sons of God (angels) came to present themselves before the LORD, and Satan (adversary, accuser) also came among them.",
+    "NLT": "6 One day the members of the heavenly court came to present themselves before the LORD, and the Accuser, Satan, came with them."
   },
-  "Matthew 12:41": {
-    "KJV": "The men of Nineveh shall rise in judgment with this generation, and shall condemn it: because they repented at the preaching of Jonas; and, behold, a greater than Jonas is here.",
-    "NKJV": "The men of Nineveh will rise up in the judgment with this generation and condemn it, because they repented at the preaching of Jonah; and indeed a greater than Jonah is here.",
-    "NIV": "The men of Nineveh will stand up at the judgment with this generation and condemn it; for they repented at the preaching of Jonah, and now something greater than Jonah is here.",
-    "ESV": "The men of Nineveh will rise up at the judgment with this generation and condemn it, for they repented at the preaching of Jonah, and behold, something greater than Jonah is here.",
-    "AMP": "The men of Nineveh will stand up [as witnesses] at the judgment with this generation, and will condemn it because they repented at the preaching of Jonah; and look, Something greater than Jonah is here.",
-    "NLT": "The people of Nineveh will stand up against this generation on judgment day and condemn it, for they repented of their sins at the preaching of Jonah. And now someone greater than Jonah is here—but you refuse to repent."
+  "Job 2:1": {
+    "KJV": "1 Again there was a day when the sons of God came to present themselves before the LORD, and Satan came also among them to present himself before the LORD.",
+    "NKJV": "1 Again there was a day when the sons of God came to present themselves before the LORD, and Satan came also among them to present himself before the LORD.",
+    "NIV": "1 On another day the angels came to present themselves before the LORD, and Satan also came with them to present himself before him.",
+    "ESV": "1 Again there was a day when the sons of God came to present themselves before the LORD, and Satan also came among them to present himself before the LORD.",
+    "AMP": "1 Again there was a day when the sons of God (angels) came to present themselves before the LORD, and Satan (adversary, accuser) also came among them to present himself before the LORD.",
+    "NLT": "1 One day the members of the heavenly court came again to present themselves before the LORD, and the Accuser, Satan, came with them."
   },
-  "Matthew 12:41-42": {
-    "KJV": "41 The men of Nineveh shall rise in judgment with this generation, and shall condemn it: because they repented at the preaching of Jonas; and, behold, a greater than Jonas is here. 42 The queen of the south shall rise up in the judgment with this generation, and shall condemn it: for she came from the uttermost parts of the earth to hear the wisdom of Solomon; and, behold, a greater than Solomon is here.",
-    "NKJV": "41 The men of Nineveh will rise up in the judgment with this generation and condemn it, because they repented at the preaching of Jonah; and indeed a greater than Jonah is here. 42 The queen of the South will rise up in the judgment with this generation and condemn it, for she came from the ends of the earth to hear the wisdom of Solomon; and indeed a greater than Solomon is here.",
-    "NIV": "41 The men of Nineveh will stand up at the judgment with this generation and condemn it; for they repented at the preaching of Jonah, and now something greater than Jonah is here. 42 The Queen of the South will rise at the judgment with this generation and condemn it; for she came from the ends of the earth to listen to Solomon’s wisdom, and now something greater than Solomon is here.",
-    "ESV": "41 The men of Nineveh will rise up at the judgment with this generation and condemn it, for they repented at the preaching of Jonah, and behold, something greater than Jonah is here. 42 The queen of the South will rise up at the judgment with this generation and condemn it, for she came from the ends of the earth to hear the wisdom of Solomon, and behold, something greater than Solomon is here.",
-    "AMP": "41 The men of Nineveh will stand up [as witnesses] at the judgment with this generation, and will condemn it because they repented at the preaching of Jonah; and look, Something greater than Jonah is here. 42 The Queen of the South (Sheba) will rise up [as a witness] at the judgment with this generation, and will condemn it because she came from the ends of the earth to hear the wisdom of Solomon; and look, Something greater than Solomon is here.",
-    "NLT": "41 The people of Nineveh will stand up against this generation on judgment day and condemn it, for they repented of their sins at the preaching of Jonah. And now someone greater than Jonah is here—but you refuse to repent. 42 The queen of Sheba will also stand up against this generation on judgment day and condemn it, for she came from such a distant land to hear the wisdom of Solomon. And now someone greater than Solomon is here—but you refuse to listen."
+  "Zechariah 3:1-2": {
+    "KJV": "1 And he shewed me Joshua the high priest standing before the angel of the LORD, and Satan standing at his right hand to resist him. 2 And the LORD said unto Satan, The LORD rebuke thee, O Satan; even the LORD that hath chosen Jerusalem rebuke thee: is not this a brand plucked out of the fire?",
+    "NKJV": "1 Then he showed me Joshua the high priest standing before the Angel of the LORD, and Satan standing at his right hand to oppose him. 2 And the LORD said to Satan, 'The LORD rebuke you, Satan! The LORD who has chosen Jerusalem rebuke you! Is this not a brand plucked from the fire?'",
+    "NIV": "1 Then he showed me Joshua the high priest standing before the angel of the LORD, and Satan standing at his right side to accuse him. 2 The LORD said to Satan, 'The LORD rebuke you, Satan! The LORD, who has chosen Jerusalem, rebuke you! Is not this man a burning stick snatched from the fire?'",
+    "ESV": "1 Then he showed me Joshua the high priest standing before the angel of the LORD, and Satan standing at his right hand to accuse him. 2 And the LORD said to Satan, 'The LORD rebuke you, O Satan! The LORD who has chosen Jerusalem rebuke you! Is not this a brand plucked from the fire?'",
+    "AMP": "1 Then [the guiding angel] showed me Joshua the high priest standing before the Angel of the LORD, and Satan standing at Joshua’s right hand to be his adversary and to accuse him. 2 And the LORD said to Satan, 'The LORD rebuke you, Satan! Even the LORD, who [now and ever] has chosen Jerusalem, rebuke you! Is this not a log snatched and rescued from the fire?'",
+    "NLT": "1 Then the angel showed me Jeshua the high priest standing before the angel of the LORD. The Accuser, Satan, was there at the angel’s right hand, making accusations against Jeshua. 2 And the LORD said to Satan, 'I, the LORD, reject your accusations, Satan. Yes, the LORD, who has chosen Jerusalem, rebukes you. This man is like a burning stick that has been snatched from the fire.'"
   },
-  "John 3:16-18": {
-    "KJV": "16 For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life. 17 For God sent not his Son into the world to condemn the world; but that the world through him might be saved. 18 He that believeth on him is not condemned: but he that believeth not is condemned already, because he hath not believed in the name of the only begotten Son of God.",
-    "NKJV": "16 For God so loved the world that He gave His only begotten Son, that whoever believes in Him should not perish but have everlasting life. 17 For God did not send His Son into the world to condemn the world, but that the world through Him might be saved. 18 “He who believes in Him is not condemned; but he who does not believe is condemned already, because he has not believed in the name of the only begotten Son of God.",
-    "NIV": "16 For God so loved the world that he gave his one and only Son, that whoever believes in him shall not perish but have eternal life. 17 For God did not send his Son into the world to condemn the world, but to save the world through him. 18 Whoever believes in him is not condemned, but whoever does not believe stands condemned already because they have not believed in the name of God’s one and only Son.",
-    "ESV": "16 “For God so loved the world, that he gave his only Son, that whoever believes in him should not perish but have eternal life. 17 For God did not send his Son into the world to condemn the world, but in order that the world might be saved through him. 18 Whoever believes in him is not condemned, but whoever does not believe is condemned already, because he has not believed in the name of the only Son of God.",
-    "AMP": "16 “For God so [greatly] loved and dearly prized the world, that He [even] gave His [One and] only begotten Son, so that whoever believes and trusts in Him [as Savior] shall not perish, but have eternal life. 17 For God did not send the Son into the world to judge and condemn the world [that is, to initiate the sentence of judgment of the world], but that the world might be saved through Him. 18 He who believes and trusts in Him [as Savior] is not judged [there is no judgment for him, he a member of Christ’s family]; but he who does not believe [and has decided to reject Him as Savior] is judged already [that is, has already been convicted and sentenced], because he has not believed and trusted in the name of the [One and] only begotten Son of God [the Savior who lives inside those who believe].",
-    "NLT": "16 “For this is how God loved the world: He gave his one and only Son, so that everyone who believes in him will not perish but have eternal life. 17 God sent his Son into the world not to judge the world, but to save the world through him. 18 “There is no judgment against anyone who believes in him. But anyone who does not believe in him has already been judged for not believing in God’s one and only Son."
-  }
+  "Matthew 15:8": {
+    "KJV": "8 This people draweth nigh unto me with their mouth, and honoureth me with their lips; but their heart is far from me.",
+    "NKJV": "8 ‘These people draw near to Me with their mouth, And honor Me with their lips, But their heart is far from Me.",
+    "NIV": "8 ‘These people honor me with their lips, but their hearts are far from me.",
+    "ESV": "8 “‘This people honors me with their lips, but their heart is far from me;",
+    "AMP": "8 ‘These people honor Me with their lips, But their heart is far away from Me.",
+    "NLT": "8 ‘These people honor me with their lips, but their hearts are far from me."
+  },
+  "2 Timothy 3:5": {
+    "KJV": "5 Having a form of godliness, but denying the power thereof: from such turn away.",
+    "NKJV": "5 having a form of godliness but denying its power. And from such people turn away!",
+    "NIV": "5 having a form of godliness but denying its power. Have nothing to do with such people.",
+    "ESV": "5 having the appearance of godliness, but denying its power. Avoid such people.",
+    "AMP": "5 holding to a form of [outward] godliness (religion), although they have denied its power [for their conduct nullifies their claim of faith]. Avoid such people and keep far away from them.",
+    "NLT": "5 They will act religious, but they will reject the power that could make them godly. Stay away from people like that!"
+  },
+  "Romans 8:5-8": {
+    "KJV": "5 For they that are after the flesh do mind the things of the flesh; but they that are after the Spirit the things of the Spirit. 6 For to be carnally minded is death; but to be spiritually minded is life and peace. 7 Because the carnal mind is enmity against God: for it is not subject to the law of God, neither indeed can be. 8 So then they that are in the flesh cannot please God.",
+    "NKJV": "5 For those who live according to the flesh set their minds on the things of the flesh, but those who live according to the Spirit, the things of the Spirit. 6 For to be carnally minded is death, but to be spiritually minded is life and peace. 7 Because the carnal mind is enmity against God; for it is not subject to the law of God, nor indeed can be. 8 So then, those who are in the flesh cannot please God.",
+    "NIV": "5 Those who live according to the flesh have their minds set on what the flesh desires; but those who live in accordance with the Spirit have their minds set on what the Spirit desires. 6 The mind governed by the flesh is death, but the mind governed by the Spirit is life and peace. 7 The mind governed by the flesh is hostile to God; it does not submit to God's law, nor can it do so. 8 Those who are in the realm of the flesh cannot please God.",
+    "ESV": "5 For those who live according to the flesh set their minds on the things of the flesh, but those who live according to the Spirit set their minds on the things of the Spirit. 6 For to set the mind on the flesh is death, but to set the mind on the Spirit is life and peace. 7 For the mind that is set on the flesh is hostile to God, for it does not submit to God's law; indeed, it cannot. 8 Those who are in the flesh cannot please God.",
+    "AMP": "5 For those who are living according to the flesh set their minds on the things of the flesh [which gratify the body], but those who are living according to the Spirit, [set their minds on] the things of the Spirit [His will and purpose]. 6 Now the mind of the flesh is death [both now and forever—because it pursues sin]; but the mind of the Spirit is life and peace [the spiritual well-being that comes from walking with God—now and forever]; 7 the mind of the flesh [with its sinful pursuits] is actively hostile to God. It does not submit itself to God’s law, since it cannot, 8 and those who are in the flesh [living a life that caters to sinful appetites and impulses] cannot please God.",
+    "NLT": "5 Those who are dominated by the sinful nature think about sinful things, but those who are controlled by the Holy Spirit think about things that please the Spirit. 6 So letting your sinful nature control your mind leads to death. But letting the Spirit control your mind leads to life and peace. 7 For the sinful nature is always hostile to God. It never did obey God’s laws, and it never will. 8 That’s why those who are still under the control of their sinful nature can never please God."
+  },
+  "Galatians 5:16-17": {
+    "KJV": "16 This I say then, Walk in the Spirit, and ye shall not fulfil the lust of the flesh. 17 For the flesh lusteth against the Spirit, and the Spirit against the flesh: and these are contrary the one to the other: so that ye cannot do the things that ye would.",
+    "NKJV": "16 I say then: Walk in the Spirit, and you shall not fulfill the lust of the flesh. 17 For the flesh lusts against the Spirit, and the Spirit against the flesh; and these are contrary to one another, so that you do not do the things that you wish.",
+    "NIV": "16 So I say, walk by the Spirit, and you will not gratify the desires of the flesh. 17 For the flesh desires what is contrary to the Spirit, and the Spirit what is contrary to the flesh. They are in conflict with each other, so that you are not to do whatever you want.",
+    "ESV": "16 But I say, walk by the Spirit, and you will not gratify the desires of the flesh. 17 For the desires of the flesh are against the Spirit, and the desires of the Spirit are against the flesh, for these are opposed to each other, to keep you from doing the things you want to do.",
+    "AMP": "16 But I say, walk habitually in the [Holy] Spirit [seek Him and be responsive to His guidance], and then you will certainly not carry out the desire of the sinful nature [which responds impulsively without regard for God and His precepts]. 17 For the sinful nature has its desire which is opposed to the Spirit, and the [desire of the] Spirit opposes the sinful nature; for these [two, the sinful nature and the Spirit] are in direct opposition to each other [continually in conflict], so that you [as believers] do not always do whatever [good things] you want to do.",
+    "NLT": "16 So I say, let the Holy Spirit guide your lives. Then you won’t be doing what your sinful nature craves. 17 The sinful nature wants to do evil, which is just the opposite of what the Spirit wants. And the Spirit gives us desires that are the opposite of what the sinful nature desires. These two forces are constantly fighting each other, so you are not free to carry out your good intentions."
+  },
+  "Numbers 11:34": {
+    "KJV": "34 And he called the name of that place Kibrothhattaavah: because there they buried the people that lusted.",
+    "NKJV": "34 So he called the name of that place Kibroth Hattaavah, because there they buried the people who had yielded to craving.",
+    "NIV": "34 Therefore the place was named Kibroth Hattaavah, because there they buried the people who had craved other food.",
+    "ESV": "34 Therefore the name of that place was called Kibroth-hattaavah, because there they buried the people who had the craving.",
+    "AMP": "34 So they named that place Kibroth-hattaavah [the graves of greediness], because there they buried the people who had been greedy for more.",
+    "NLT": "34 So that place was called Kibroth-hattaavah (which means “graves of gluttony”) because there they buried the people who had craved meat from Egypt."
+  },
+  "Numbers 11:4": {
+    "KJV": "4 And the mixt multitude that was among them fell a lusting: and the children of Israel also wept again, and said, Who shall give us flesh to eat?",
+    "NKJV": "4 Now the mixed multitude who were among them yielded to intense craving; so the children of Israel also wept again and said: 'Who will give us meat to eat?'",
+    "NIV": "4 The rabble with them began to crave other food, and again the Israelites started wailing and said, 'If only we had meat to eat!'",
+    "ESV": "4 Now the rabble that was among them had a strong craving. And the people of Israel also wept again and said, 'Oh that we had meat to eat!'",
+    "AMP": "4 The mixed multitude [of non-Israelites] who were among them had greedy desires; and the Israelites wept again and said, 'Who will give us meat to eat?'",
+    "NLT": "4 Then the foreign rabble who were traveling with the Israelites began to crave the good things of Egypt. And the people of Israel also began to complain. 'Oh, for some meat!' they exclaimed."
+  },
+  "Hebrews 13:5": {
+    "KJV": "5 Let your conversation be without covetousness; and be content with such things as ye have: for he hath said, I will never leave thee, nor forsake thee.",
+    "NKJV": "5 Let your conduct be without covetousness; be content with such things as you have. For He Himself has said, 'I will never leave you nor forsake you.'",
+    "NIV": "5 Keep your lives free from the love of money and be content with what you have, because God has said, 'Never will I leave you; never will I forsake you.'",
+    "ESV": "5 Keep your life free from love of money, and be content with what you have, for he has said, 'I will never leave you nor forsake you.'",
+    "AMP": "5 Let your character [your moral essence, your inner nature] be free from the love of money [shun greed—be financially ethical], being content with what you have; for He has said, 'I will never [under any circumstances] desert you [nor give you up nor leave you without support, nor will I in any degree leave you helpless] nor will I forsake or let you down or relax My hold on you [assuredly not]!'",
+    "NLT": "5 Don’t love money; be satisfied with what you have. For God has said, 'I will never fail you. I will never abandon you.'"
+  },
+  "2 Corinthians 6:14": {
+    "KJV": "14 Be ye not unequally yoked together with unbelievers: for what fellowship hath righteousness with unrighteousness? and what communion hath light with darkness?",
+    "NKJV": "14 Do not be unequally yoked together with unbelievers. For what fellowship has righteousness with lawlessness? And what communion has light with darkness?",
+    "NIV": "14 Do not be yoked together with unbelievers. For what do righteousness and wickedness have in common? Or what fellowship can light have with darkness?",
+    "ESV": "14 Do not be unequally yoked with unbelievers. For what partnership has righteousness with lawlessness? Or what fellowship has light with darkness?",
+    "AMP": "14 Do not be unequally bound together with unbelievers [do not make mismatched alliances with them, inconsistent with your faith]. For what partnership can righteousness have with lawlessness? Or what fellowship can light have with darkness?",
+    "NLT": "14 Don’t team up with those who are unbelievers. How can righteousness be a partner with wickedness? How can light live with darkness?"
+  },
+  "Numbers 33:55-56": {
+    "KJV": "55 But if ye will not drive out the inhabitants of the land from before you; then it shall come to pass, that those which ye let remain of them shall be pricks in your eyes, and thorns in your sides, and shall vex you in the land wherein ye dwell. 56 Moreover it shall come to pass, that I shall do unto you, as I thought to do unto them.",
+    "NKJV": "55 But if you do not drive out the inhabitants of the land from before you, then it shall be that those whom you let remain shall be irritants in your eyes and thorns in your sides, and they shall harass you in the land where you dwell. 56 Moreover it shall be that I will do to you as I thought to do to them.",
+    "NIV": "55 But if you do not drive out the inhabitants of the land, those you allow to remain will become barbs in your eyes and thorns in your sides. They will give you trouble in the land where you will live. 56 And then I will do to you what I plan to do to them.",
+    "ESV": "55 But if you do not drive out the inhabitants of the land from before you, then those of them whom you let remain shall be as barbs in your eyes and thorns in your sides, and they shall trouble you in the land where you dwell. 56 And I will do to you as I thought to do to them.",
+    "AMP": "55 But if you do not drive out the inhabitants of the land from before you, then those you let remain [of them] will be like thorns in your eyes and thorns in your sides, and they will trouble you in the land in which you live. 56 And as I planned to do to them, so I will do to you.",
+    "NLT": "55 But if you fail to drive out the people who live in the land, those who remain will be like splinters in your eyes and thorns in your sides. They will harass you in the land where you live. 56 And I will do to you what I had planned to do to them."
+  },
+  "Isaiah 32:10": {
+    "KJV": "10 Many days and years shall ye be troubled, ye careless women: for the vintage shall fail, the gathering shall not come.",
+    "NKJV": "10 In a year and some days you will be troubled, you complacent women; For the vintage will fail, the gathering will not come.",
+    "NIV": "10 In little more than a year you who feel secure will tremble; the grape harvest will fail, and the harvest of fruit will not come.",
+    "ESV": "10 In little more than a year you will shudder, you complacent women; for the grape harvest fails, the fruit harvest will not come.",
+    "AMP": "10 In little more than a year you will tremble, you complacent women; for the vintage has ended, and the harvest will not come.",
+    "NLT": "10 In a little more than a year, you careless ones will suddenly begin to care. For your fruit crops will fail, and the harvest will never take place."
+  },
+  "2 Corinthians 2:11": {
+    "KJV": "11 Lest Satan should get an advantage of us: for we are not ignorant of his devices.",
+    "NKJV": "11 lest Satan should take advantage of us; for we are not ignorant of his devices.",
+    "NIV": "11 in order that Satan might not outwit us. For we are not unaware of his schemes.",
+    "ESV": "11 so that we would not be outwitted by Satan; for we are not ignorant of his designs.",
+    "AMP": "11 to keep Satan from taking advantage of us; for we are not ignorant of his schemes.",
+    "NLT": "11 so that Satan will not outsmart us. For we are familiar with his evil schemes."
+  },
+
+
+
+
+
 
 };
 
@@ -201,78 +286,64 @@ const SundaySchoolApp = () => {
 };
 
 const [contentData, setContentData] = useState<ContentData>({
-    lessonDate: "July 19, 2026", 
-    lessonTitle: "UNREALISTIC DEMANDS",
+    lessonDate: "August 2, 2026", 
+    lessonTitle: "INFLUENCE OF THE MIX MULTITUDES PART 2",
 
     memoryVerse:
-        "But seek ye first the kingdom of God, and his righteousness; and all these things shall be added unto you. Matt. 6:33",
-    memoryVerseRef: "Matthew 6:33", 
+        "And this is the condemnation, that light is come into the world, and men loved darkness rather than light, because their deeds were evil - John 3:19",
+    memoryVerseRef: "John 3:19", 
 
-    introScriptures: ["Matthew 12:38-42"],
+    introScriptures: ["Numbers 11:4-6", "Numbers 11:10-15", "Numbers 11:33"],
 
     introduction:
-        "If you could imagine what God and Jesus has been through to save mankind, you won't attach any string to your worship/service to God. Many people can't serve God as demanded just because they aren't sure of what they'll derive from Him, Even though as slaves we haven't much choice because we were bought with a price - 1Cor. 6-20, Rom. 6:18. He revealed the benefits of our service to him - Matt. 6:33. What more does a man need to be sold out completely to Jesus Christ?",
+        "We live in a world where light and darkness contend with one another and the advertisment of darkness seems to be more appealing to mankind. Don't take side with people because their ideas seem good and your feelings supports their cravings but humble yourself and support the righteous course of the Lord according to the Holy scriptures. The Lord wants you to stand with Him and not against Him - 1 Cor. 10:12.",
 
     aims:
-        "To stop Christian believers from excusing themselves of their negligence towards God.",
+        "To reveal Satan's scheme and motive against God's children.",
 
     objectives:
-        "To encourage believers to follow and serve Jesus without reservation.",
-    objectiveScriptures: [],
+        "That God's children may escape the wrath and damnation of God.",
     
     lessonIntro:
-        "These worshippers of God were still not satisfied with all the proofs that Jesus is the Messiah and requested for further signs to draw their conclusion. They were disappointed as Jesus didn't give them a sign they had thought to receive. Many of you Christians or church goers shall be disappointed in like manner because inspite of all you have seen and received in Christ you still required God to prove himself with a blessing or miracle before your loyalty to him.",
+        "God's provision of Manna was satisfactory to the Jews until the Mix Multitude began to point out to them that everything was wrong with it. This similar action occurred in Eden as the first parents hearkened to strange Satan who found everything that God gave them to be wrong. Their agitation brought a new deal but also calamity, where many dies according to verse 34. Let us consider more on this lesson.",
         
-    lessonIntroScriptures: ["Matthew 12:38-42"],
+    lessonIntroScriptures: ["Numbers 11:4-6", "Numbers 11:10-15", "Numbers 11:33", "Numbers 11:34"],
     
     lessonPoints: [
         {
-            title: "THE BELIEVING UNBELIEVERS",
+            title: "THE CARELESS CATCHES THE FLU",
             content:
-                "They even called him master showing that they were not unbelievers yet they still had their doubts like some of you today.",
-            scriptures: ["Matthew 12:38"],
+                "The scheme and the actions of the mix multitude is highly contagious that only the careful believers can escape it. They will open your eyes to what they see other than what God requires you to see. They will entice and motivate you to join them or begin your own journey of rebellion towards God as in our text - Numbers 11:4, 1 Cor. 10:12, Isa. 32:10",
+            scriptures: ["Numbers 11:4", "1 Corinthians 10:12", "Isaiah 32:10"],
             subPoints: [],
         },
         {
-            title: "REQUEST FOR PERSUASIVE SIGNS",
+            title: "THE INSATIABLE WANTS OF MAN",
             content:
-                "People excuse themselves from serving and worshiping God for selfish reasons like these men of old. They have seen enough proof to yield to Jesus but were still adamant.",
-            scriptures: ["Matthew 12:38-39"],
+                "It is true that man is never satisfied with what he has or receives. This same congregation had God's protection from all the plaques in Egypt. All the silver and gold including the best clothings from all the Egyptian were given to them by God. They received other acts of God including miraculous supply of water which no other nation has ever enjoyed. The manna was one of the numerous provisions of God to them yet they joined unbelievers to rebel against a loving God who is busy blessing them through His servant. If this is your present position then repent quickly before calamnity will befall you. Hebrews 13:5",
+            scriptures: ["Hebrews 13:5"],
             subPoints: [],
         },
         {
-            title: "BELIEVE BY THE EXISTING SIGNS",
+            title: "LOST OF APETITE FOR GOD'S DEALING:",
             content:
-                "You don't need any of the conditions you are giving to God to serve him if you want to because there are so many existing reasons in your life and in others.",
-            scriptures: [],
-            subPoints: [],
-        },
-        {
-            title: "THE FAITH OF THE UNBELIEVER",
-            content:
-                "If what the Lord has done in your life is done in the lives of unbelievers they will remain in the courts of the Lord. Nineveh demonstrated this fact while Israel disregarded God's warnings.",
-            scriptures: ["Matthew 12:41", "Jonah 3:5-10"],
-            subPoints: [],
-        },
-        {
-            title: "GREATER PUNISHMENT",
-            content:
-                "If God proposed punishment for unbelieving nations should they defy his servants how much more will the punishment be greater if we defy his only begotten son.",
-            scriptures: ["Matthew 12:41-42", "John 3:16-18"],
+                "In verse 6, they claim to to have lost appetite for God's provision and desired what the mix multitude showed them. Your union with the mix multitude will always create loss of joy in the things of God Because their influence is based on their interest - 2 Corinthians 6:14",
+            scriptures: ["2 Corinthians 6:14","Numbers 11:6"],
             subPoints: [],
         },
     ],
 
     conclusion:
-        "Don't seek further proof to believe or serve God. Make up your mind and be totally yielded to Jesus now.",
+        "Don't allow such evil company to sweep you away from the presence and blessings of God to destruction. Numbers 33:55-56.",
 
-    conclusionScriptures: ["1 Corinthians 6:20", "Romans 6:18", "Matthew 6:33"],
+    conclusionScriptures: ["Numbers 33:55-56"],
 
     prayerPoints: [
-        "Lord, deliver me from the attitude of demanding signs and wonders before offering You my complete loyalty and service.",
-        "Father, help me to remain satisfied with the greatest proof of Your love on the cross and serve You without any hidden conditions.",
-        "Oh Lord, grant me the grace to recognize the existing blessings and testimonies in my life as more than enough reasons to remain totally yielded to You!"
-    ],
+        "Lord, open my eyes to discern and separate myself from evil associations and the subtle influence of the mixed multitude that draws hearts away from You.",
+        "Father, grant me a heart of true contentment and gratitude for Your daily provisions, and deliver me from the spirit of insatiable desires and murmuring.",
+        "Oh Lord, preserve my spiritual appetite for Your word and presence; never let the enticing promises of the world rob me of my joy in You.",
+        "Holy Spirit, give me the grace to stand firm in righteousness and light, so that I will never compromise my faith or follow the crowd into destruction."
+    ]
 });
 
 
@@ -612,7 +683,7 @@ const [contentData, setContentData] = useState<ContentData>({
                             Sunday School Lesson
                         </h1>
                         <p className="text-xl opacity-80">
-                            UNREALISTIC DEMANDS
+                            INFLUENCE OF THE MIX MULTITUDES PART 2
                         </p>
                     </div>
                     <div className="grid md:grid-cols-2 gap-6">
@@ -896,19 +967,40 @@ const [contentData, setContentData] = useState<ContentData>({
                             </div>
                             <div>
                                 <h3 className="text-2xl font-bold mb-3">
-                                    Text: Matthew 12:38-42
+                                    Text: Numbers 11:4-6, 10-15, 33
                                 </h3>
                                 <div className="flex gap-2 flex-wrap">
                                     <button
                                         onClick={() =>
                                             showBibleVersions(
-                                                "Matthew 12:38-42"
+                                                "Numbers 11:4-6"
                                             )
                                         }
-                                        className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg transition flex items-center gap-2"
-                                    >
+                                         className="bg-blue-600 hover:bg-blue-700 text-white px-3 py-1.5 rounded-lg transition flex items-center gap-2 text-sm shadow-md"
+                                        >
                                         <BookOpen size={16} />
-                                        Read Matthew 12:38-42
+                                        Numbers 11:4-6
+                                    </button>
+                                    <button
+                                        onClick={() =>
+                                            showBibleVersions(
+                                                "Numbers 11:10-15"
+                                            )
+                                        }
+                                className="bg-blue-600 hover:bg-blue-700 text-white px-3 py-1.5 rounded-lg transition flex items-center gap-2 text-sm shadow-md"
+                                        >
+                                        <BookOpen size={16} />
+                                        Numbers 11:10-15
+                                    </button>
+                                    <button
+                                        onClick={() =>
+                                            showBibleVersions(
+                                                "Numbers 11:33"
+                                            )
+                                        }
+                                className="bg-blue-600 hover:bg-blue-700 text-white px-3 py-1.5 rounded-lg transition flex items-center gap-2 text-sm shadow-md"                                    >
+                                        <BookOpen size={16} />
+                                        Numbers 11:33
                                     </button>
 
                                 </div>
@@ -939,38 +1031,17 @@ const [contentData, setContentData] = useState<ContentData>({
                                             {contentData.introduction}
                                         </p>
                                         <div className="flex flex-wrap gap-2 mt-4">
+                                           
                                             <button
                                                 onClick={() =>
                                                     showBibleVersions(
-                                                        "Romans 6:18"
+                                                        "1 Corinthians 10:12"
                                                     )
                                                 }
                                                 className="bg-blue-600 hover:bg-blue-700 text-white px-3 py-1.5 rounded-lg transition flex items-center gap-2 text-sm shadow-md"
                                             >
                                                 <BookOpen size={16} />
-                                                Romans 6:18
-                                            </button>
-                                            <button
-                                                onClick={() =>
-                                                    showBibleVersions(
-                                                        "1 Corinthians 6:20"
-                                                    )
-                                                }
-                                                className="bg-blue-600 hover:bg-blue-700 text-white px-3 py-1.5 rounded-lg transition flex items-center gap-2 text-sm shadow-md"
-                                            >
-                                                <BookOpen size={16} />
-                                                1 Corinthians 6:20
-                                            </button>
-                                            <button
-                                                onClick={() =>
-                                                    showBibleVersions(
-                                                        "Matthew 6:33"
-                                                    )
-                                                }
-                                                className="bg-blue-600 hover:bg-blue-700 text-white px-3 py-1.5 rounded-lg transition flex items-center gap-2 text-sm shadow-md"
-                                            >
-                                                <BookOpen size={16} />
-                                                Matthew 6:33
+                                                1 Corinthians 10:12
                                             </button>
                                         </div>
                                     </div>
