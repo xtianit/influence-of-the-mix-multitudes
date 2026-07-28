@@ -582,7 +582,7 @@ const [contentData, setContentData] = useState<ContentData>({
         <div className="fixed inset-0 bg-gradient-to-br from-blue-600 via-indigo-600 to-purple-700 flex items-center justify-center z-50">
             <div className="text-center">
                 <div className="relative mb-8">
-                    <div className="w-32 h-32 mx-auto bg-white rounded-full flex items-center justify-center shadow-2xl animate-pulse">
+                    <div className="w-32 h-32 mx-auto bg-white rounded-full flex items-center justify-center shadow-2xl animate-[wave-float_3s_ease-in-out_infinite]">
                         <img
                             src={logo}
                             alt="Logo"
