@@ -576,7 +576,7 @@ const [contentData, setContentData] = useState<ContentData>({
 
 
         if (appLoading) {
-    const animatedText = "Complelling Favour - Genesis 39:1-6, Neh. 2:2-8".split("");
+    const animatedText = "Receive the LIGHT and Manifest the good works of God! - Matthew 5:14-16!".split("");
 
     return (
         <div className="fixed inset-0 bg-gradient-to-br from-blue-600 via-indigo-600 to-purple-700 flex items-center justify-center z-50">
